@@ -285,7 +285,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn btn-dim btn-outline-secondary btn-block card-link" @click="run">
+                            <button class="btn btn-dim btn-outline-secondary btn-block card-link" :style="{{set.status?'color:green':'color:red'}}" @click="run">
                                 {{set.status?'停止':'开始'}}
                             </button>
 
