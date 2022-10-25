@@ -7671,7 +7671,7 @@ body.nav-shown { overflow: hidden; }
 
 .nk-header-fixed + .nk-content { margin-top: 65px; position: relative; }
 
-.nk-header-wrap { position: relative; display: flex; align-items: center; margin: 0 -.25rem; }
+.nk-header-wrap { position: relative; display: flex; align-items: center; margin: 0 0rem; }
 
 .nk-header-wrap > * { padding: 0 .25rem; }
 
