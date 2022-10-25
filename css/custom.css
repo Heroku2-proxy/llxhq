@@ -374,3 +374,12 @@ p {
         no-repeat scroll right center !important;
     background-size: 34px !important;
 }
+
+p#ipinfo {
+    position: relative;
+    left: -24px;
+    top: -10px;
+}
+
+
+
