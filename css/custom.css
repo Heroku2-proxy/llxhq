@@ -257,25 +257,6 @@ option:disabled {
 	left: 24px;
 }
 
-.as-mobile #app > div > div:nth-child(2) > div > div > li.nk-menu-item p {
-	overflow: hidden;
-	width: 420px;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-}
-
-.as-mobile #app > div > div:nth-child(2) > div > div > li.nk-menu-item {
-	left: 20px;
-}
-
-@media (min-width: 576px) {
-	.as-mobile #app > div > div:nth-child(2) > div > div > li.nk-menu-item {
-		left: 24px;
-	}
-	.as-mobile #app > div > div:nth-child(2) > div > div > li.nk-menu-item p {
-		width: unset;
-	}
-}
 
 p {
 	margin-top: 30px;
