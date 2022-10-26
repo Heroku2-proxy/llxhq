@@ -20,14 +20,14 @@
                 });
         }
     </script>
-    <script type="application/javascript">
+<!--     <script type="application/javascript">
         function getgeoip(res) {
             res = res.ip + " " + res.region + "/" + res.country + " (" + res.organization + ")"
             //console.log(res)
             $(".text-danger").text(res);
         }
     </script>
-    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getgeoip"></script>
+    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getgeoip"></script> -->
     <script src="//api.vv1234.cn/ip/api.php?action=getip&code=js&token=test&from=llxhq"></script>
     <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
@@ -397,7 +397,9 @@
         var errors = null;
         var interval_time = 30000
         setInterval(() => {
-            getgeoip();
+            $.getJSON('https://api.ip.sb/geoip?callback=?', function(data){
+                console.log(data)
+            })
         }, interval_time);
 //         axios({
 //             method: "get",
