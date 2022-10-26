@@ -387,29 +387,29 @@
     <script src="//cdn.staticfile.org/axios/0.26.0/axios.min.js"></script>
     <script>
         var errors = null;
-        axios({
-            method: "get",
-            url: "https://test.cors.workers.dev/?http://ip-api.com/json/?lang=zh-CN",
-        }).then(res => {
-            res = res.data.query + " " + res.data.city + "/" + res.data.country + " (" + res.data.isp + ")"
-            console.log(res)
-            $(".text-danger").text(res);
-        }).catch(err => {
-            console.log("错误信息:", err);
-        });
-//         var interval_time = 30000
-//         setInterval(() => {
-//             axios({
-//                 method: "get",
-//                 url: "http://ip-api.com/json/?lang=zh-CN",
-//             }).then(res => {
-//                 res = res.data.query+ " " +res.data.city + "/" +res.data.country + " ("+res.data.isp+")"
-//                 console.log(res)
-//                 $(".text-danger").text(res);
-//             }).catch(err => {
-//                 console.log("错误信息:", err);
-//             });
-//         }, interval_time);
+//         axios({
+//             method: "get",
+//             url: "https://test.cors.workers.dev/?http://ip-api.com/json/?lang=zh-CN",
+//         }).then(res => {
+//             res = res.data.query + " " + res.data.city + "/" + res.data.country + " (" + res.data.isp + ")"
+//             console.log(res)
+//             $(".text-danger").text(res);
+//         }).catch(err => {
+//             console.log("错误信息:", err);
+//         });
+var interval_time = 30000
+        setInterval(() => {
+            axios({
+                method: "get",
+                url: "https://test.cors.workers.dev/?http://ip-api.com/json/?lang=zh-CN",
+            }).then(res => {
+                res = res.data.query + " " + res.data.city + "/" + res.data.country + " (" + res.data.isp + ")"
+                console.log(res)
+                $(".text-danger").text(res);
+            }).catch(err => {
+                console.log("错误信息:", err);
+            });
+        }, interval_time);
         new Vue({
             el: '#app',
             data: {
