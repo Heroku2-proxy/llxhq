@@ -397,8 +397,9 @@
         var errors = null;
         var interval_time = 30000
         setInterval(() => {
-            $.getJSON('https://api.ip.sb/geoip?callback=?', function(data){
-                console.log(data)
+            $.getJSON('https://api.ip.sb/geoip?callback=?', function(res){
+                res = res.ip + " " + res.region + " / " + res.country + " (" + res.organization + ")"
+                $(".text-danger").text(res);
             })
         }, interval_time);
 //         axios({
