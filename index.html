@@ -22,7 +22,7 @@
     </script>
     <script type="application/javascript">
         function getgeoip(res) {
-            res = res.ip + " " + res.data.region + "/" + res.country + " (" + res.organization + ")"
+            res = res.ip + " " + res.region + "/" + res.country + " (" + res.organization + ")"
             //console.log(res)
             $(".text-danger").text(res);
         }
