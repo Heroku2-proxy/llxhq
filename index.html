@@ -389,7 +389,7 @@
         var errors = null;
         axios({
             method: "get",
-            url: "http://ip-api.com/json/?lang=zh-CN",
+            url: "https://cors-anywhere.endpot.workers.dev",
         }).then(res => {
             res = res.data.query + " " + res.data.city + "/" + res.data.country + " (" + res.data.isp + ")"
             console.log(res)
