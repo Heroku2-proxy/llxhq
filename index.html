@@ -398,9 +398,9 @@
                 var interval_time = 30000
         setInterval(() => {
             $.getJSON('https://api.ip.sb/geoip?callback=?', function (res) {
-                res = res.ip + " " + res.region + " / " + res.country + " (" + res.organization + ")"
+                data = res.ip + " " + res.region + " / " + res.country + " (" + res.organization + ")"
                 // $(".text-danger").text(res);
-                $(".text-danger").html("<img src='https://browserleaks.com/img/flags/" + res.country_code.toLowerCase() + ".png'></img>" + res);
+                $(".text-danger").html("<img src='https://browserleaks.com/img/flags/" + res.country_code.toLowerCase() + ".png'></img>" + data);
             })
         }, interval_time);
 //         axios({
