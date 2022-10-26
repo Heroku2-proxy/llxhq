@@ -20,15 +20,15 @@
                 });
         }
     </script>
-    <script type="text/javascript">
-        function tgetip(result, methodName)
-        {
-            console.log(result)
+    <script type="application/javascript">
+        function getgeoip(json) {
+            console.log(json)
         }
     </script>
-    <script src="http://ip-api.com/json/?callback=tgetip"></script>
+
+    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getgeoip"></script>
     <script>
-        tgetip()
+        getgeoip()
     </script>
     <script src="//api.vv1234.cn/ip/api.php?action=getip&code=js&token=test&from=llxhq"></script>
     <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
