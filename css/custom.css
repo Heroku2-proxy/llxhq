@@ -196,7 +196,8 @@ h6 {
 
 #app > div > div:nth-child(1) > div > button {
     background-color: rgba(0, 0, 0, 0.04);
-    box-shadow: -1px 0px 10px 3px #d7545b59 !important;
+/*     box-shadow: -1px 0px 10px 3px #d7545b59 !important; */
+    box-shadow: -1px 0px 10px 3px #5463d730 !important;
 }
 
 #app > div > div:nth-child(1) > div > button[style*="108"] {
