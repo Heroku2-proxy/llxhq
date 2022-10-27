@@ -398,7 +398,7 @@
         var interval_time = 30000
         setInterval(() => {
             $.getJSON('https://api.ip.sb/geoip?callback=?', function (res) {
-                res1 = "  " + res.ip + " " + res.region + " / " + res.country + " (" + res.organization + ")"
+                res1 = "  " + res.ip + "   " + res.country + " / " + res.region + " (" + res.organization + ")"
                 // $(".text-danger").text(res);
                 $(".text-danger").html("<img src='https://browserleaks.com/img/flags/" + res.country_code.toLowerCase() + ".png'>" + res1);
             })
