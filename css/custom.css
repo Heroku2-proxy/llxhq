@@ -164,9 +164,9 @@ div.dataTables_wrapper div.dataTables_filter input:focus,
     font-size: 18px !important;
 }
 
-.custom-control-label {
+/* .custom-control-label {
     font-size: 15px !important;
-}
+} */
 
 .dark-mode .form-label,
 .dark-mode h6 {
