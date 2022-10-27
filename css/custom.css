@@ -397,3 +397,7 @@ p#ipinfo {
     font-size: 16px !important;
     margin-top: 0px;
 }
+
+.custom-control-input:not(:checked) ~ .custom-control-label::before {
+    border-color: #6576ff !important;
+}
