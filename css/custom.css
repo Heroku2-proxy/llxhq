@@ -313,7 +313,7 @@ p {
 
 #app > div > div:nth-child(1) > div > div:nth-child(2) > p:nth-child(2) {
     color: #827c73 !important;
-    margin-top: -15px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
