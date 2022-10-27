@@ -386,7 +386,19 @@ p#ipinfo {
     margin-top: 0px;
 } 
 
+#app > div > div:nth-child(1) > div > div.row.mt-4 > div:nth-child(1),
+ #app > div > div:nth-child(1) > div > div.row.mt-4 > div:nth-child(1) > div.text-dark {
+ 	color: #e35d5d !important
+ }
 
+ #app > div > div:nth-child(1) > div > div.row.mt-4 > div:nth-child(2) {
+ 	color: #33ddf7 !important
+ }
+
+ #app > div > div:nth-child(1) > div > div.row.mt-4 > div:nth-child(3),
+ #app > div > div:nth-child(1) > div > div.row.mt-4 > div:nth-child(3) > div.text-dark {
+ 	color: #6cd549 !important
+ }
 
 
 
