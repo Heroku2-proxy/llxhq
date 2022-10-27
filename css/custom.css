@@ -303,7 +303,9 @@ p {
 }
 
 #app > div > div:nth-child(1) > div > div:nth-child(2) > p:nth-child(2) {
-    color: #845252 !important;
+    color: #827c73 !important;
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
 
 .layui-layer-dialog .layui-layer-content {
@@ -384,8 +386,7 @@ p#ipinfo {
 
 .accordion-inner > p {
     margin-top: 0px;
-} 
-
+}
 
 .stat-title {
     opacity: 1 !important;
@@ -395,6 +396,3 @@ p#ipinfo {
     color: #fd9e52 !important;
     font-size: 16px !important;
 }
-
-
-
