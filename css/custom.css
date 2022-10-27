@@ -388,12 +388,12 @@ p#ipinfo {
 
 
 .stat-title {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
-p.text-danger {
+#app .card .form-group p.text-danger {
     color: #fd9e52 !important;
-    font-size: 16px !important
+    font-size: 16px !important;
 }
 
 
