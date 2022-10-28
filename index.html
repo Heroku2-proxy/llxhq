@@ -502,7 +502,8 @@
                         },
                     }).catch(e => {
                         if (!axios.isCancel(e)) {
-                            layer.msg(e.message, { icon: 2 })
+//                             layer.msg(e.message, { icon: 2 })
+                            layer.msg("网络错误", { icon: 2 })
                             //  this.set.status = false
                             this.set.status = true
                         }
