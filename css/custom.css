@@ -410,3 +410,12 @@ p#ipinfo {
 .custom-control-input:not(:checked) ~ .custom-control-label::before {
     border-color: #6576ff !important;
 }
+
+.layui-layer-ico2 {
+    background-position: -60px 0 !important;
+    background-image: url(https://cdn.staticfile.org/layer/3.5.1/theme/default/icon.png) !important;
+}
+
+
+
+
